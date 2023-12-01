@@ -52,6 +52,8 @@ const Wrapper = styled.div`
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+
+    box-shadow: 0px 24px 24px 24px hsl(${COLORS['dark-slate-grey']} / 0.3);
   }
 `;
 

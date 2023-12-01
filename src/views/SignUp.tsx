@@ -7,8 +7,6 @@ import listIcon from '../assets/images/icon-list.svg';
 import { COLORS, SCREEN } from '../assets/styles';
 import Button from '../components/Button';
 
-// TODO: desktop shadow
-
 type SignUpProps = {
   setFormIsSubmitted: React.Dispatch<React.SetStateAction<boolean>>;
   email: string;
@@ -133,6 +131,8 @@ const Wrapper = styled.div`
     max-width: 930px;
 
     padding: 24px;
+
+    box-shadow: 0px 24px 24px 24px hsl(${COLORS['dark-slate-grey']} / 0.3);
   }
 `;
 
@@ -153,11 +153,6 @@ const ImageWrapper = styled.section`
     background-repeat: no-repeat;
     border-radius: 24px;
   }
-`;
-
-const Image = styled.img`
-  width: 100%;
-  object-fit: cover;
 `;
 
 const ContentWrapper = styled.section`
