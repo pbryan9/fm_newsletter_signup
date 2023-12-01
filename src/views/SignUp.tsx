@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import headerImageMobile from '../assets/images/illustration-sign-up-mobile.svg';
 import headerImageDesktop from '../assets/images/illustration-sign-up-desktop.svg';
-import listIcon from '../assets/images/icon-list.svg';
+// import listIcon from '../../public/icon-list.svg';
 import { COLORS, SCREEN } from '../assets/styles';
 import Button from '../components/Button';
 
@@ -206,7 +206,7 @@ const Benefit = styled.li`
     aspect-ratio: 1 / 1;
     display: inline-block;
     background-size: contain;
-    background-image: url(${listIcon});
+    background-image: url('/icon-list.svg');
   }
 `;
 
